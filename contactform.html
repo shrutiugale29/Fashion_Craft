@@ -1,0 +1,67 @@
+<html>
+<head>
+	<title>Contact Form</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">   
+
+	<link rel="stylesheet" href="contact.css">
+	<title>FashionCraft Fashion Collection</title>
+</head>
+<style>
+.center-form{
+
+justify-content: center;
+
+display: flex;
+
+margin: 40px 50px;
+
+border: 3px solid blue;
+
+padding: 30px;
+
+background: url(img.jpg);
+opacity: 0.75;
+
+}
+</style>
+<body>
+
+<div class="center-form">
+
+<div class="head"><p><b><h1 style="font-family:Lucida Handwriting";>FEEL FREE TO CONTACT US.</h1></p></b>
+ <p><a href="#" class="fa fa-pinterest"> </a>			  	  style/ankara-fabrics-pinterest-fashion-best-clothing-ideas</p> 
+<p><a href="#" class="fa fa-WhatsApp"> </a> 	+91 0230-256354 </p>
+<p><a href="#" class="fa fa-instagram"> </a> 	Instagram:@Fashion_Craft_67.</p>
+<p><a href="#" class="fa fa-youtube"> </a>	https://youtube.com/shorts/oaL8GKUmYko?feature=share.</p>
+
+<p><img src="paris1.png" alt="Paris" style="width:600px" "height:700px"> </p>
+
+</div>
+
+	<form action="contact.php" method="POST" style="justify-content:center;">
+	
+	<div class="transbox">
+     <h3>
+
+	Enter Customer ID<input type="text" name="csid" class="feedback-input"/><br><br>
+
+	Enter YOur FirstName : <input type="text" name="fstname" class="feedback-input" /><br><br>
+	Enter Your LastName : <input type="text" name="lstname" class="feedback-input" /><br><br>
+
+	Enter Your Address : <textarea name="address" rows="5" cols="40" placeholder="Enter Address"class="feedback-input" ></textarea><br><br>
+		Enter Your Mobile : <input type="text" name="mobile" class="feedback-input" /><br><br>
+		Enter your E-Mail : <input type="text" name="email" placeholder="example@gai.com" class="feedback-input" /><br><br>
+		
+		Enter Your Opinion : <textarea name="opinion" rows="5" cols="40" placeholder="Enter Address"class="feedback-input" ></textarea><br><br>
+
+Enter Todays Date:<input type="date" value="<? php echo $today: ?>" class="form-control" id="date" name="today" class="feedback-input"><br><br>  
+
+	<input type="submit" value="Send message"/>
+	</h3>
+	</form>
+	</div>
+	</div>
+	
+</body>
+</html>
